@@ -52,9 +52,6 @@ user_id,comment
 
 1,NoneNoneNone
 
-# What to do NEXT?
-Delete "None" rows.
-
 3,Sato
 
 5,Flower
@@ -62,3 +59,6 @@ Delete "None" rows.
 4,class
 
 3,find
+
+# What to do NEXT?
+Delete "None" rows.

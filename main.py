@@ -1,14 +1,21 @@
 import csv
 import re # Regular expression
 import pandas as pd
-csv_ori = pd.read_csv('original.csv', sep=",")
-# csv_ori = open('original.csv', 'r')
-print(csv_ori['comment'][0])
+import warnings
+warnings.filterwarnings('ignore')
 
-"""
-for index in csv_ori.iterrows():
-    ori = csv_ori['comment'][index]
-    # if csv_ori['comment'][index] == '[^\x01-\x7E]'
-    # ori = re.sub('[^\x01-\x7E]', '', ori)
-    print(ori)
-"""
+csv_ori = pd.read_csv('original.csv', sep=",")
+ja_l = []
+for i, index in csv_ori.iterrows():
+    print('i: ' + str(i))
+    com = csv_ori.iloc[i]["comment"]
+    ja = re.sub('[亜-熙ぁ-んァ-ヶ]', 'None', com)
+    print(ja)
+    ja_l.append(ja)
+
+print(ja_l)
+
+for index, row in csv_ori.iterrows():
+    csv_ori['comment'][index] = ja_l[index]
+
+csv_ori.to_csv('original.csv', index=False)

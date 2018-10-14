@@ -21,7 +21,7 @@ user_id,comment
 
 3,Hello
 
-5,こんにちは
+5,привет
 
 4,Python
 
@@ -31,11 +31,19 @@ user_id,comment
 
 3,Sato
 
-5,Flower
+5,露西亜
 
 4,class
 
 3,find
+
+5,руссия
+
+4,コーヒー
+
+3,солдат
+
+2,alice
 
 # Original File after process
 user_id,comment
@@ -46,21 +54,29 @@ user_id,comment
 
 3,Hello
 
-5,NoneNoneNoneNoneNone
+5,??????
 
 4,Python
 
-2,NoneNoneNone
+2,???
 
-1,NoneNoneNone
+1,???
 
 3,Sato
 
-5,Flower
+5,???
 
 4,class
 
 3,find
+
+5,??????
+
+4,????
+
+3,??????
+
+2,alice
 
 # What to do NEXT?
 Delete "None" rows.

@@ -4,6 +4,8 @@ Clean data
 # reference site
 [pandas itterrows](http://www.kisse-logs.com/2017/04/26/python3-iterrows/)
 
+[Test regular expressions](https://regex101.com/)
+
 # Requirement definition
 - Delete non-English comment. OK
 - Delete the non-English comment row

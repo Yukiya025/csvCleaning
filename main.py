@@ -16,6 +16,7 @@ for index, row in csv_ori.iterrows():
 csv_ori.to_csv('original.csv', index=False)
 
 main0.onlyEn()
+main0.del_dup()
 
 """
 LINE12

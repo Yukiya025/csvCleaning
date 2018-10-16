@@ -40,7 +40,7 @@ This is practical Python learning. The repository is useful to clean data.
 [Pythonで配列や二次元配列をcsvファイルに書き込む](http://www.irohabook.com/python-csv-write)
 
 [Python Tips：文字列を検索したい](https://www.lifewithpython.com/2015/04/python-search-string-pattern.html)
-
+[[python3 pandas] 複数のセルの内容を一つにまとめたい](https://teratail.com/questions/152220#reply-228758)
 # Requirement definition
 - Delete non-English comment. DONE
 - Delete the non-English comment row. DONE
